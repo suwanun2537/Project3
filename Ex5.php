@@ -5,6 +5,7 @@
  $total = $price * $quantiry; // ราคารวมคิดโดยนำ ราคา x จำนวน
 
  //ภาษี   7%
+ //ภาษี   7%
  $vat = $total * 0.07;
  $totalall = $total + $vat;
 
